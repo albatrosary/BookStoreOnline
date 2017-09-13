@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'bso-root',
   template: `
     <h1>
-      Welcome to {{title}}!!
+      Welcome to {{title}}!
     </h1>
     <div class="btn-group" dropdown>
       <button dropdownToggle type="button" class="btn btn-primary dropdown-toggle">
