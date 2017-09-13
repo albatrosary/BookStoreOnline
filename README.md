@@ -15,6 +15,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 #### Add ngx-bootstrap
 
 see: https://github.com/valor-software/ngx-bootstrap/blob/development/docs/getting-started/ng-cli.md
+bootstrap4(scss): https://github.com/valor-software/ngx-bootstrap/blob/development/docs/getting-started/bootstrap4.md
 
 ## Development server
 
