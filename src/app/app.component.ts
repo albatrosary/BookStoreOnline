@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   template: `
     <h1>
       Welcome to {{title}}!!
+      <alert type="success">hello</alert>
     </h1>
     <router-outlet></router-outlet>
   `,

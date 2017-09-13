@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.6.
 
+#### Create Project
+
 1. `ng new BookStoreOnline --prefix bso --routing true --inline-template true --inline-style true --style scss`
 2. `cd BookStoreOnline`
 3. In github, make a repository 'BookStoreOnline'.
@@ -9,6 +11,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 5. `git add .`
 6. `git commit -m 'first commit'`
 7. `git push`
+
+#### Add ngx-bootstrap
+
+see: https://github.com/valor-software/ngx-bootstrap/blob/development/docs/getting-started/ng-cli.md
 
 ## Development server
 
