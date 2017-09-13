@@ -4,22 +4,14 @@ import { Component } from '@angular/core';
   selector: 'bso-root',
   template: `
     <h1>
-      Welcome to {{title}}!
+      <a routerLink="">Book Store Online</a>
     </h1>
-    <div class="btn-group" dropdown>
-      <button dropdownToggle type="button" class="btn btn-primary dropdown-toggle">
-        Button dropdown <span class="caret"></span>
-      </button>
-      <ul *dropdownMenu class="dropdown-menu" role="menu">
-        <li role="menuitem"><a class="dropdown-item" href="#">Action</a></li>
-        <li role="menuitem"><a class="dropdown-item" href="#">Another action</a></li>
-        <li role="menuitem"><a class="dropdown-item" href="#">Something else here</a></li>
-        <li class="divider dropdown-divider"></li>
-        <li role="menuitem"><a class="dropdown-item" href="#">Separated link</a>
-        </li>
-      </ul>
-    </div>
-    <router-outlet></router-outlet>
+    <a routerLink="items">商品一覧</a>
+    <a routerLink="carts">ショッピングカート一覧</a>
+    <a routerLink="history">購入履歴</a>
+    <a routerLink="user">購入者情報</a>
+    <a href="https://github.com/albatrosary/BookStoreOnline/">github</a>
+    <router-outlet></router-outlet> 
   `,
   styles: []
 })
