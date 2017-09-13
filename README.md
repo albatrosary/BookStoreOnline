@@ -2,6 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.6.
 
+1. `ng new BookStoreOnline --prefix bso --routing true --inline-template true --inline-style true --style scss`
+2. `cd BookStoreOnline`
+3. In github, make a repository 'BookStoreOnline'.
+4. `git init`
+5. `git add .`
+6. `git commit -m 'first commit'`
+7. `git push`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
