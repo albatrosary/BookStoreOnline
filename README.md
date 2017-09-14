@@ -33,6 +33,16 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
+Case: Headless Browser
+```
+ng test -cc --config karma.ci.conf.js
+```
+
+Case: Chrome Browser
+```
+ng test -cc --config karma.conf.js
+```
+
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
